@@ -14,7 +14,8 @@ function App() {
   // let [a, c] = [1, 2];
   // let a = num[0];
   // let c = num[1];
-  
+  // 열심히해야지
+
   return (
     <div className="App">
       <div className="black-nav">
