@@ -20,7 +20,12 @@ function App() {
     <div className="App">
       <div className="black-nav">
         <h4>ReactBlog</h4>
-        <input value='글제목변경' type='button' onClick={()=>{글제목변경(['버버리코트', '아무거나코트', '노래하는코트'])}}></input>
+        <input value='글제목변경' type='button' onClick={()=>{
+          let copy = [...글제목];
+          copy[0] = '노래하는코트 추천';
+          글제목변경(copy);
+        }}>
+        </input>
       </div>
 
       <div className="list">
